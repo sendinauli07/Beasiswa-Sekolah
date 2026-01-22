@@ -108,7 +108,7 @@ async function createTables() {
       Phone_Number VARCHAR(50),
       Join_Date DATE,
       Org_Group_Code VARCHAR(50),
-      Organization_Name VARCHAR(255),
+      Organization_Name VARCHAR(255)
     )`,
     `CREATE TABLE IF NOT EXISTS ChildTEL (
       id INT AUTO_INCREMENT PRIMARY KEY,
