@@ -123,7 +123,7 @@ async function createTables() {
       id INT AUTO_INCREMENT PRIMARY KEY,
       kategori VARCHAR(100) NOT NULL,
       key_nilai VARCHAR(100) NOT NULL,
-      value_nilai DECIMAL(10, 2),
+      value_nilai FLOAT NOT NULL,
       UNIQUE KEY unique_kategori_key (kategori, key_nilai)
     )`,
     `CREATE TABLE IF NOT EXISTS ScholarshipApplicants (
