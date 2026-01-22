@@ -242,11 +242,11 @@ async function seedDummyData() {
 
     // Insert dummy employees
     const employees = [
-      ['EMP001', 'Budi Santoso', '081234567890', '2020-01-15', 'IT-001', 'IT Department'],
-      ['EMP002', 'Siti Rahayu', '081234567891', '2019-03-20', 'HR-001', 'HR Department'],
-      ['EMP003', 'Ahmad Hidayat', '081234567892', '2018-07-10', 'FIN-001', 'Finance Department'],
-      ['EMP004', 'Dewi Lestari', '081234567893', '2021-02-28', 'MKT-001', 'Marketing Department'],
-      ['EMP005', 'Rudi Hartono', '081234567894', '2017-11-05', 'OPS-001', 'Operations Department'],
+      ['001', 'Budi Santoso', '081234567890', '2020-01-15', 'IT-001', 'IT Department'],
+      ['002', 'Siti Rahayu', '081234567891', '2019-03-20', 'HR-001', 'HR Department'],
+      ['003', 'Ahmad Hidayat', '081234567892', '2018-07-10', 'FIN-001', 'Finance Department'],
+      ['004', 'Dewi Lestari', '081234567893', '2021-02-28', 'MKT-001', 'Marketing Department'],
+      ['005', 'Rudi Hartono', '081234567894', '2017-11-05', 'OPS-001', 'Operations Department'],
     ];
 
     for (const emp of employees) {
@@ -259,13 +259,13 @@ async function seedDummyData() {
 
     // Insert dummy children
     const children = [
-      ['EMP001', 1, 'Andi Santoso', 'L', 'Jakarta', '2005-05-15'],
-      ['EMP001', 2, 'Ani Santoso', 'P', 'Jakarta', '2008-08-20'],
-      ['EMP002', 1, 'Dian Rahayu', 'P', 'Bandung', '2006-03-10'],
-      ['EMP003', 1, 'Fajar Hidayat', 'L', 'Surabaya', '2004-12-25'],
-      ['EMP003', 2, 'Fitri Hidayat', 'P', 'Surabaya', '2007-06-30'],
-      ['EMP004', 1, 'Galih Lestari', 'L', 'Yogyakarta', '2005-09-18'],
-      ['EMP005', 1, 'Hana Hartono', 'P', 'Semarang', '2006-01-22'],
+      ['001', 1, 'Andi Santoso', 'L', 'Jakarta', '2005-05-15'],
+      ['001', 2, 'Ani Santoso', 'P', 'Jakarta', '2008-08-20'],
+      ['002', 1, 'Dian Rahayu', 'P', 'Bandung', '2006-03-10'],
+      ['003', 1, 'Fajar Hidayat', 'L', 'Surabaya', '2004-12-25'],
+      ['003', 2, 'Fitri Hidayat', 'P', 'Surabaya', '2007-06-30'],
+      ['004', 1, 'Galih Lestari', 'L', 'Yogyakarta', '2005-09-18'],
+      ['005', 1, 'Hana Hartono', 'P', 'Semarang', '2006-01-22'],
     ];
 
     for (const child of children) {
